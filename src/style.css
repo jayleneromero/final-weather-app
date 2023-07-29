@@ -1,9 +1,10 @@
 body {
   font-family: arial, sans-serif;
+  background: #407088;
 }
 
 h1 {
-  color: #878787;
+  color: pink;
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
@@ -20,7 +21,7 @@ li {
   margin: 0;
   padding: 0;
 
-  color: rgb(135, 135, 135);
+  color: rgb(221, 139, 214);
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
@@ -37,7 +38,7 @@ li:first-letter {
 
 .weather-app {
   padding: 20px;
-  border: 1px solid #dadde1;
+  border: 1px solid #e0dae1;
   border-radius: 5px;
 }
 
@@ -76,15 +77,18 @@ li:first-letter {
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
-  color: black;
+  color:  pink;
 }
-.weather-forcast-date {
+
+.weather-forecast-date {
   font-size: 16px;
   opacity: 0.5;
 }
-.weather-forcecast-temperature-min {
+
+.weather-forecast-temperature-min {
   opacity: 0.5;
 }
-.weather-forcast-temperatures {
+
+.weather-forecast-temperatures {
   font-size: 13px;
 }
